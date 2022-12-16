@@ -33,7 +33,7 @@
 #### - Instance type: t2.medium
 #### - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
 #### - Key pair: Select or create a new keypair
-#### - User data (Copy the following user data):
+#### - User data (Copy the following user data): https://github.com/SheyNjila1/Deep-Dive-Jenkins-Continuous-Integration/blob/main/userdata/nexus.sh
 #### - Launch EC2 Inatance 
 ### c) Nexus
 #### - Create an Amazon Linux 2 VM instance and call it "Nexus"
