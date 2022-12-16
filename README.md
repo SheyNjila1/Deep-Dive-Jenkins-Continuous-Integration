@@ -45,4 +45,13 @@
 #### - User data (Copy the following user data): https://github.com/SheyNjila1/Deep-Dive-Jenkins-Continuous-Integration/blob/main/userdata/sonarqube.sh
 #### - Launch Instance
 
-# Step 2: Configuration and integration of Jenkins, Maven, Nexus, SonarQube
+# Step 2: Verification steps to confirm proper installation of Jenkins, Nexux and SonarQube: 
+##### SSH into each server using MobarXterm, Putty, Powershell or Termius or connect directly. Verify if userdata is correctly ustilized 
+
+##### Access the servers on the brower using the public IP and default port 
+
+
+# Step 3: Configuration and integration of Jenkins, Maven, Nexus, SonarQube:
+### a) JenkinsServer
+### b) NexusServer
+### c) SonarQubeServer
