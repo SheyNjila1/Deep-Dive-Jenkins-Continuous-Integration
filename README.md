@@ -20,7 +20,7 @@
 #### 8) Troubleshooting skills
 
 # Step 1: Creation of Security Groups for Jenkins, Nexus, SonarQube
-### Create an Amazon Linux 2 VM instance and call it "Jenkinsserver"
+### a) Create an Amazon Linux 2 VM instance and call it "Jenkinsserver"
 #### - Instance type: t2.large
 #### - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
 #### - Key pair: Select or create a new keypair
@@ -29,3 +29,9 @@
 #### - Launch Instance
 #### - After launching this Jenkins server, attach a tag as Key=Application, value=jenkins
 
+### b) Create an Create an Ubuntu 20.04 VM instance and call it "SonarQube"
+#### - Instance type: t2.medium
+#### - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
+#### - Key pair: Select or create a new keypair
+#### - User data (Copy the following user data):
+#### - Launch EC2 Inatance 
