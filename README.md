@@ -46,9 +46,9 @@
 #### - Launch Instance
 
 # Step 2: Verification steps to confirm proper installation of Jenkins, Nexux and SonarQube: 
-##### SSH into each server using MobarXterm, Putty, Powershell or Termius or connect directly. Verify if userdata is correctly ustilized 
+#### SSH into each server using MobarXterm, Putty, Powershell or Termius or connect directly. Verify if userdata is correctly ustilized 
 
-##### Access the servers on the brower using the public IP and default port 
+#### Access the servers on the brower using the public IP and default port 
 
 
 # Step 3: Configuration and integration of Jenkins, Maven, Nexus, SonarQube:
