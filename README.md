@@ -50,6 +50,11 @@
 
 #### Access the servers on the brower using the public IP and default port 
 
+
+
+# Step 3: Configuration and integration of Jenkins, Maven, Nexus, SonarQube:
+### a) JenkinsServer
+
 ![UnluckJenkins](https://user-images.githubusercontent.com/96470430/208053410-6e59b045-a118-441d-b417-3802f241aa8a.PNG)
 
 ### Customize Jenkins Plugins ---> Install Suggested Pluggins
@@ -63,7 +68,7 @@
 ### Instance Configuration
 ![Instance Cinfiuration](https://user-images.githubusercontent.com/96470430/208054841-fca2e0da-7c62-4d77-a825-b448c5f0cfbe.PNG)
 
-Jenkins Dasboard
+### Jenkins Dasboard
 ![JenkinsDashboard](https://user-images.githubusercontent.com/96470430/208055131-7aa3b878-7824-4653-8572-49624b245b2d.PNG)
 
 ### Install Jenkins Plugins.
@@ -76,11 +81,13 @@ Jenkins Dasboard
 
 ![Integrate Jenkins Plugins](https://user-images.githubusercontent.com/96470430/208057341-ab6211f1-8f7c-47d0-87d6-3bdcf326e51e.PNG)
 
+### b) Nexus Server:
 
-# Step 3: Configuration and integration of Jenkins, Maven, Nexus, SonarQube:
-### a) JenkinsServer
-### b) NexusServer
-### c) SonarQubeServer
+#### SSH into and make sure that nexus is up and running.
+
+
+
+### c) Sonar QubeServer
 
 
 ## References:
