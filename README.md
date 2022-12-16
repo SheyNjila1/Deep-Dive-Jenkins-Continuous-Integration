@@ -50,6 +50,32 @@
 
 #### Access the servers on the brower using the public IP and default port 
 
+![UnluckJenkins](https://user-images.githubusercontent.com/96470430/208053410-6e59b045-a118-441d-b417-3802f241aa8a.PNG)
+
+### Customize Jenkins Plugins ---> Install Suggested Pluggins
+### Install Suggested Plugins 
+![Install Pluggins](https://user-images.githubusercontent.com/96470430/208054360-58913fd1-fbd9-40b1-b6d7-64428ee34510.PNG)
+![Install Plugins in progress](https://user-images.githubusercontent.com/96470430/208054432-eec2ef2c-c636-4e8d-b172-d8cea057edc0.PNG)
+
+### Create Firt Admin
+![Create first Jenkins Admin](https://user-images.githubusercontent.com/96470430/208054503-7d2604c3-54fd-48de-8296-6e6291d463cd.PNG)
+
+### Instance Configuration
+![Instance Cinfiuration](https://user-images.githubusercontent.com/96470430/208054841-fca2e0da-7c62-4d77-a825-b448c5f0cfbe.PNG)
+
+Jenkins Dasboard
+![JenkinsDashboard](https://user-images.githubusercontent.com/96470430/208055131-7aa3b878-7824-4653-8572-49624b245b2d.PNG)
+
+### Install Jenkins Plugins.
+#### Maven Integration
+#### Github Integration
+#### Nexus Artifact Uploader
+#### SonarQube Scanner
+#### Slack Notification
+#### Build Timestamp
+
+![Integrate Jenkins Plugins](https://user-images.githubusercontent.com/96470430/208057341-ab6211f1-8f7c-47d0-87d6-3bdcf326e51e.PNG)
+
 
 # Step 3: Configuration and integration of Jenkins, Maven, Nexus, SonarQube:
 ### a) JenkinsServer
