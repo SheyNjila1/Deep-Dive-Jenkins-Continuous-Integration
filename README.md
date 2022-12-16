@@ -55,3 +55,10 @@
 ### a) JenkinsServer
 ### b) NexusServer
 ### c) SonarQubeServer
+
+
+## References:
+#### 1. https://www.udemy.com/course/devopsprojects/
+#### 2. https://www.youtube.com/@RahulWagh
+
+
