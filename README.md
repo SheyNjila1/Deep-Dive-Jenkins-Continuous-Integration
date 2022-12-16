@@ -44,3 +44,5 @@
 #### - Key pair: Select or create a new keypair
 #### - User data (Copy the following user data): https://github.com/SheyNjila1/Deep-Dive-Jenkins-Continuous-Integration/blob/main/userdata/sonarqube.sh
 #### - Launch Instance
+
+# Step 2: Configuration and integration of Jenkins, Maven, Nexus, SonarQube
