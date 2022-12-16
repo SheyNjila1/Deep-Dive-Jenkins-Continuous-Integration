@@ -8,4 +8,15 @@
 
 ![Jenkins-CI-flow](https://user-images.githubusercontent.com/96470430/208033771-6f47a3c8-9d3b-43e1-8604-b28b86dc7ead.PNG)
 
+# Prerequsits:
+### It is assume that the following are already set or that the ready reader has knowlegde of
+#### 1) AWS Account and the ability to navigate AWS console
+#### 2) Basic Linux and understanding of shell scripts
+#### 3) Git and GitHub : fundamental knowlede of common git and github commands 
+#### 4) Jenkins installation and configuration
+#### 5) Nexus installation and configuration
+#### 6) SonarQube installation and configuration
+#### 7) Slack channel of subscription to one 
+#### 8) Troubleshooting skills
+
 
