@@ -19,8 +19,9 @@
 #### 7) Slack channel of subscription to one 
 #### 8) Troubleshooting skills
 
-# Step 1: Create Security Groups for Jenkins, Nexus, SonarQube
-### a) Create an Amazon Linux 2 VM instance and call it "Jenkinsserver"
+# Step 1: Install Jenkins, Nexus, SonarQube
+
+### a) Create an Amazon Linux 2 VM instance and call it "JenkinsServer"
 #### - Instance type: t2.large
 #### - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
 #### - Key pair: Select or create a new keypair
@@ -29,16 +30,17 @@
 #### - Launch Instance
 #### - After launching this Jenkins server, attach a tag as Key=Application, value=jenkins
 
-### b) Create an Create an Ubuntu 20.04 VM instance and call it "SonarQube"
+### b) Create an Create an Ubuntu 20.04 VM instance and call it "SonarQubeServer"
 #### - Instance type: t2.medium
 #### - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
 #### - Key pair: Select or create a new keypair
 #### - User data (Copy the following user data): https://github.com/SheyNjila1/Deep-Dive-Jenkins-Continuous-Integration/blob/main/userdata/nexus.sh
 #### - Launch EC2 Inatance 
+
 ### c) Nexus
-#### - Create an Amazon Linux 2 VM instance and call it "Nexus"
+#### - Create an Amazon Linux 2 VM instance and call it "NexusServer"
 #### - Instance type: t2.medium
 #### - Security Group (Open): 8081, 9100 and 22 to 0.0.0.0/0
 #### - Key pair: Select or create a new keypair
-#### - User data (Copy the following user data): 
+#### - User data (Copy the following user data): https://github.com/SheyNjila1/Deep-Dive-Jenkins-Continuous-Integration/blob/main/userdata/sonarqube.sh
 #### - Launch Instance
